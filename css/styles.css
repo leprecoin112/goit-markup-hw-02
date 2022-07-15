@@ -13,7 +13,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
@@ -59,6 +58,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  letter-spacing: 0.03em;
   color: var(--hover-text-color);
 }
 
@@ -73,6 +73,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* -----------------HERO---------------------- */
@@ -91,7 +92,6 @@ body {
 
 .hero-button {
   font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -109,13 +109,16 @@ body {
 }
 
 /* -----------------Features---------------------- */
-.feature-item .title {
+.feature-title {
   line-height: 1.14;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.feature-item .text {
+.feature-text {
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--tertiary-text-color);
 }
 
@@ -130,17 +133,19 @@ body {
   background-color: var(--primary-bg-color);
 }
 
-.team-item .title {
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
-.team-item .text {
+.team-text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--tertiary-text-color);
 }
 
@@ -152,23 +157,25 @@ body {
   color: var(--secondary-text-color);
 }
 
-.address-item .address {
+.footer-address {
   text-decoration: none;
   font-style: normal;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
-.address-item .contact {
+.footer-contact {
   text-decoration: none;
   font-style: normal;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.address-item .address:hover,
-.address-item .address:focus,
-.address-item .contact:hover,
-.address-item .contact:focus {
+.footer-address:hover,
+.footer-address:focus,
+.footer-contact:hover,
+.footer-contact:focus {
   color: var(--hover-text-color);
 }
 
@@ -180,6 +187,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
   cursor: pointer;
 
@@ -192,14 +200,15 @@ body {
   background-color: var(--hover-text-color);
 }
 
-.portfolio-item .title {
+.portfolio-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.portfolio-item .text {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--tertiary-text-color);
 }
